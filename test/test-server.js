@@ -1,7 +1,7 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 
-const {app, runServer, closeServer} = require('../recipes');
+const {app, runServer, closeServer} = require('../server');
 
 // this lets us use *expect* style syntax in our tests
 // so we can do things like `expect(1 + 1).to.equal(2);`
