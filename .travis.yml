@@ -7,4 +7,4 @@ deploy:
   app: fast-lake-91161
   on:
     repo: johnjoowho/node-shopping-list-integration-tests
-    branch: tests-for-recipes
+    branch: master
