@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: 
+  provider: heroku
+  api_key:
+    secure: Y0h+AiCwWuqjH57fGLqGas6BDF4far3+A4D5CvoAdJTRZAfD8LySafkhe+/qQaPfmhtkw1cQzyox9efj2xMd7dfnjWYRFeQgLmkq2tpQOYD0TeWfkxyKTkUEDFhBYCVeo8cABL9FkfAZ2J0e/sJ51wZgJ2lJIZ+GQWFgKnrujbVz3aYjp0BKuIMHzHvziGVUx0lrtaaEhdtsuuyFQTXj3YT4PAtb88ZXqLudVN49wFQcS3xFZZUfzp6YckwSM/T9ImErbjAbk9LtlDD78wRRWX0PVRadnfkGwPOwRZKphU3eTpkJlaIoNkbKlF2Zzm/YfPQZdny2KcjLSg7flTq9zARFe6xbLZZlWVW17kdYeSbxIDMRb8y/HjtH67a4UfTHRXMB6qIGzHSZk8KFozFx9D2X/9aNVwCno+NnB4RivYQQhKWc5fQ/Jm2pVzFPiyBzqadKum4pRmCcYj+CS4o/jI8hoAPrSm5ISZqtLS/amPcdCg08cfMd84nkmjCj328SZ0wmwGGS3Hu7wGLvYKI/kdD4ir7xfaYFTUTzqNWINWl9fzYtwzCQNRbb9Dg3D+j8Bp27s2AuZYTAlXBje1ypzNTHm+iEvVZskUkmQ8CLDhMgjUoSfFd2Lv1SqDpzmlKoyh5KVt0ZJWxdj0rXUzrqeK9y1lKTXY5s6V39I+mqjKg=
+  app: fast-lake-91161
+  on:
+    repo: johnjoowho/node-shopping-list-integration-tests
+    branch: tests-for-recipes
